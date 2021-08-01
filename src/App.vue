@@ -11,12 +11,14 @@
 import { ref } from 'vue';
 // ant-design-vue 目前的默认文案是英文, 修改为中文
 import zhCN from 'ant-design-vue/es/locale/zh_CN';
-import { Moment } from 'moment';
+import moment, { Moment } from 'moment';
 import HelloWorld from './components/HelloWorld.vue';
+
+import 'moment/dist/locale/zh-cn';
 
 const locale = ref(zhCN);
 // TODO moment 替换成 dayjs 并使用中文
-const date = ref<Moment>();
+const date = ref<Moment>(moment());
 // export default defineComponent({
 //   name: 'App',
 //   components: {
