@@ -32,4 +32,23 @@ Use components in templates as you would usually do, it will import components o
 
 ### ant-design-vue [docs](https://2x.antdv.com/components/overview-cn)
 
-### git commit use `git cz` in the terminal
+### git commit use `git cz` in the terminal instead of other tools, in Windows, please `npm install commitizen -g` first
+
+### vscode recommend extensions
+
+ 1. EditorConfig for Vs Code
+ 2. ESlint
+ 3. Prettier
+ 4. stylelint
+ 5. DotENV
+ 6. ...
+
+### setting.json snippets
+
+  ``` json
+    // 用该属性触发自动修复
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+  ```
