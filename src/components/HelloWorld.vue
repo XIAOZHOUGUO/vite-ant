@@ -59,8 +59,8 @@ export default defineComponent({
 
 <style scoped>
 a {
-  color: v-bind(color);
   font-weight: bold;
+  color: v-bind(color);
 }
 
 label {
@@ -69,9 +69,9 @@ label {
 }
 
 code {
-  background-color: #eee;
   padding: 2px 4px;
-  border-radius: 4px;
   color: #304455;
+  background-color: #eee;
+  border-radius: 4px;
 }
 </style>
