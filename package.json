@@ -11,6 +11,7 @@
   "dependencies": {
     "ant-design-vue": "^2.2.2",
     "axios": "^0.21.1",
+    "lodash-es": "^4.17.21",
     "vue": "^3.0.5",
     "vue-router": "^4.0.10",
     "vuex": "^4.0.2"
@@ -22,6 +23,8 @@
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
+    "@types/axios": "^0.14.0",
+    "@types/lodash-es": "^4.17.4",
     "@types/node": "^16.4.7",
     "@typescript-eslint/eslint-plugin": "^4.28.5",
     "@typescript-eslint/parser": "^4.28.5",
