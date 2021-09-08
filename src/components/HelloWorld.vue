@@ -52,6 +52,7 @@ export default defineComponent({
   setup: () => {
     const count = ref(0);
     const color = ref('orange');
+
     return { count, color };
   },
 });

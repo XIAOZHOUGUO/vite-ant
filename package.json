@@ -30,6 +30,7 @@
     "@typescript-eslint/parser": "^4.31.0",
     "@vitejs/plugin-vue": "^1.6.1",
     "@vue/compiler-sfc": "^3.2.10",
+    "apite": "^1.3.1",
     "autoprefixer": "^10.3.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",

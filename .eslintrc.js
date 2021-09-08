@@ -19,12 +19,14 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint'],
 
   rules: {
+    // 'prettier/prettier': ['warn'],
+    'prettier/prettier': ['off'],
     'no-unused-expressions': ['off'],
     'import/no-extraneous-dependencies': ['off'],
     'global-require': ['off'],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'prettier/prettier': ['warn'],
+
     'vue/no-multiple-template-root': ['off'],
     'vue/comment-directive': ['off'],
     'vue/no-v-model-argument': ['off'],
@@ -34,5 +36,7 @@ module.exports = {
     'import/prefer-default-export': ['off'],
     'no-unused-vars': ['off'],
     'no-param-reassign': ['off'],
+    'no-use-before-define': ['off'],
+    'no-return-assign': ['off'],
   },
 };

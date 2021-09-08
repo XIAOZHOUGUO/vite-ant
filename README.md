@@ -32,6 +32,7 @@ Use components in templates as you would usually do, it will import components o
 
 ### ant-design-vue [docs](https://2x.antdv.com/components/overview-cn)
 
+### data mock `apite` [docs](https://github.com/wangxing218/apite)
 ### git commit use `git cz` in the terminal instead of other tools, in Windows, please `npm install commitizen -g` first
 
 ### vscode recommend extensions
