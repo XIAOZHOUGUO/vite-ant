@@ -6,7 +6,7 @@
     <a-date-picker v-model:value="date" />
     <section style="width: 60%; margin: 10px auto;">
       <a-table
-        rowKey="test"
+        rowKey="id"
         bordered
         :columns="tableColumns"
         :dataSource="data"
