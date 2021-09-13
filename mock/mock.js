@@ -35,8 +35,9 @@ api.post('/getTest', ctx => {
  * @param {number} page 页码
  * @param {number} size 每页条数
  */
-api.get('/list', ctx => {
+api.get('/list', async ctx => {
   const { size } = ctx.query;
+  await delay(1000,2000)
   return {
     status: 200,
     rel: true,
